@@ -1,0 +1,18 @@
+@import 'utils/variables';
+
+.bar {
+  height: 100%;
+  margin-right: 1px;
+  text-align: center;
+  align-content: center;
+}
+
+.bar:last-child {
+  margin-right: 0;
+}
+
+.barPercentage {
+  font-size: 12px;
+  color: $colorBlack;
+  font-weight: bold;
+}

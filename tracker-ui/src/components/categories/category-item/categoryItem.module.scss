@@ -1,0 +1,28 @@
+@import 'utils/variables';
+
+
+.categoryItem {
+  display: grid;
+  grid-template-columns: 30px 2fr 1fr;
+  align-items: center;
+  justify-items: start;
+  gap: 20px;
+}
+
+.categoryColor {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.categoryName {
+  font-size: 16px;
+  color: $colorTextGray;
+}
+
+.categoryTotal {
+  font-size: 14px;
+  color: $colorTextGray;
+  width: 100%;
+  text-align: center;
+}

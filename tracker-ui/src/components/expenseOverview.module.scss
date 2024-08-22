@@ -1,0 +1,28 @@
+@import 'utils/variables';
+
+.overview {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  padding: 70px 50px;
+  gap: 30px;
+}
+
+.section {
+  background-color: $colorWhite;
+  padding: 40px;
+  box-shadow: 0.5px 0.5px 4px 2px $colorBorderLightBlue;
+}
+
+.listSection {
+  @extend .section;
+  width: 60%;
+  padding: 30px;
+}
+
+.diagramSection {
+  @extend .section;
+  width: 100%;
+}
+
